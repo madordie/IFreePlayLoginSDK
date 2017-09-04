@@ -8,7 +8,7 @@
 
 
 #import "WXApi.h"
-#import "LineSDK.h"
+#import <LineSDK/LineSDK.h>
 #import "YKRequestNetwork.h"
 #import "YKSDKManager.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>

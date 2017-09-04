@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'IFreePlayLoginSDK/**/*.{h,m}'
-  s.public_header_files = 'IFreePlayLoginSDK/**/*.h'
+  s.source_files = 'IFreePlayLoginSDK/sources/**/*.{h,m}'
+  s.public_header_files = 'IFreePlayLoginSDK/sources/**/*.h'
 
-  s.vendored_libraries  = 'IFreePlayLoginSDK/libWeChatSDK.a'
-  s.vendored_frameworks = 'IFreePlayLoginSDK/LineSDK.framework'
+  s.vendored_libraries  = 'IFreePlayLoginSDK/libs/libWeChatSDK.a'
+  s.vendored_frameworks = 'IFreePlayLoginSDK/libs/LineSDK.framework'
 
   s.libraries = 'c++', 'sqlite3', 'z'
   s.frameworks = 'UIKit', 'Foundation', 'Security','CoreTelephony', 'SystemConfiguration','CFNetwork'
